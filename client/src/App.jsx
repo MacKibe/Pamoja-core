@@ -1,9 +1,7 @@
 import { ConfigProvider } from "antd";
 import theme from "./theme";
 
-function App() {
-
-
+const App = () => {
   return (
     <ConfigProvider theme={theme}>
       <div className="flex items-center justify-center h-screen">
@@ -12,6 +10,6 @@ function App() {
       </div>
     </ConfigProvider>
   );
-}
+};
 
 export default App;
